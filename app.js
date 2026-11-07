@@ -1,3 +1,4 @@
+(function () {
 const {
   THEMES,
   CUISINES,
@@ -1937,8 +1938,6 @@ document.addEventListener("keydown", (e) => {
 
 window.addEventListener("hashchange", () => route(true));
 
-// Inicializa rota e abre onboarding na primeira visita
+// Inicializa a página inicial imediatamente visível (o usuário pode abrir o quiz em "Escolher meus gostos")
 route();
-if (!profile && currentView === "inicio") {
-  openOnboarding();
-}
+})();
