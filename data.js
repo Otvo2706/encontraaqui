@@ -1,5 +1,5 @@
 // Catálogo de Restaurantes, Bares, Cafés e Pesqueiros de Araçoiaba da Serra e Região
-
+(function () {
 const THEMES = [
   {
     id: "escuro",
@@ -865,3 +865,4 @@ window.SaboresData = {
   UPDATE_CATEGORIES,
   makeSvgArt
 };
+})();
